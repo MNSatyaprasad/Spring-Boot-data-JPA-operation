@@ -1,0 +1,20 @@
+package com.bwas.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+public class MarriageSeeker {
+
+	@Id
+	private Long id;
+	@Column(length = 20)
+	private String name;
+	private String addrs;
+}

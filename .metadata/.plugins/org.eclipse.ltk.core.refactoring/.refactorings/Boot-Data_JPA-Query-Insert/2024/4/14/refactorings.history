@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.beas.BootDataJpaQueryApplication&apos; to &apos;BootDataPAQueryInsert&apos;&#x0D;&#x0A;- Original project: &apos;Boot-Data_JPA-Query-Insert&apos;&#x0D;&#x0A;- Original element: &apos;com.beas.BootDataJpaQueryApplication&apos;&#x0D;&#x0A;- Renamed element: &apos;com.beas.BootDataPAQueryInsert&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BootDataJpaQueryApplication&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.beas{BootDataJpaQueryApplication.java[BootDataJpaQueryApplication" matchStrategy="1" name="BootDataPAQueryInsert" qualified="false" references="true" similarDeclarations="false" stamp="1712038503188" textual="false" version="1.0"/>
+</session>

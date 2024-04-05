@@ -1,0 +1,9 @@
+package com.bwas.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.bwas.entity.PhoneNumber;
+
+public interface IPhoneNuberRepository extends JpaRepository<PhoneNumber, Integer> {
+
+}

@@ -1,0 +1,13 @@
+package com.bwas.service;
+
+import com.bwas.entity.MarriageSeeker;
+
+public class MarriageSeekerServiceImpl implements IMarriageSeekerServiceMgmt {
+
+	@Override
+	public String registerMarriageSeeker(MarriageSeeker marriageSeeker) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

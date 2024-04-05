@@ -1,0 +1,26 @@
+package com.bwas.entity;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data
+@NoArgsConstructor
+public class MarriageSeeker {
+
+	@Id
+	private Long id;
+	@Column(length = 20)
+	private String name;
+	private String addrs;
+	private byte[] photo;
+	private LocalDateTime dob;
+	private char[] boidata;
+	private Boolean indian;
+}

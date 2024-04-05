@@ -1,0 +1,7 @@
+package com.bwas.entity;
+
+import java.io.Serializable;
+
+public class PhoneNumber implements Serializable {
+
+}

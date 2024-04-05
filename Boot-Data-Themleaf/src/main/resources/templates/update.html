@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Data</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#updateBtn").click(function () {
+                var newData = {
+                		 username: $("#username").val(),
+                         email: $("#email").val()
+                };
+
+                $.ajax({
+                    type: "PUT", // Use PUT method for update
+                    contentType: "application/json",
+                    url: "/api/update", // URL to your Spring Boot endpoint
+                    data: JSON.stringify(newData),
+                    success: function (response) {
+                        alert("Data updated successfully");
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Error occurred while updating data: " + error);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>Update Data</h2>
+    <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    <button type="button" id="updateBtn">Update</button>
+</body>
+</html>
