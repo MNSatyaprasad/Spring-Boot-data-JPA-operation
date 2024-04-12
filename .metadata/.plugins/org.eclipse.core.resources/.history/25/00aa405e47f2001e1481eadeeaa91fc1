@@ -1,5 +1,0 @@
-package com.bwas.repository;
-
-public interface IMarriageSeekarRepo {
-
-}

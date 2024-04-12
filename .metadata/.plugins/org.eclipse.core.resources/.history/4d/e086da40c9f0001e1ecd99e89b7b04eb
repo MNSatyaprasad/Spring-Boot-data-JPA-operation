@@ -1,5 +1,0 @@
-package com.beas.service;
-
-public interface ICustomerService {
-
-}

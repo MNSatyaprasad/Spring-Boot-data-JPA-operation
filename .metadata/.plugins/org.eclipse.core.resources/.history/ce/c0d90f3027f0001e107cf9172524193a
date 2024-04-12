@@ -1,5 +1,0 @@
-package com.beas.entity;
-
-public interface Address {
-
-}
