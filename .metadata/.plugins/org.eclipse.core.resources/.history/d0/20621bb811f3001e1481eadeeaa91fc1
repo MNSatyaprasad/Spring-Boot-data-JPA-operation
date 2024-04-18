@@ -1,7 +1,0 @@
-package com.bwas.entity;
-
-import java.io.Serializable;
-
-public class Person implements Serializable {
-
-}

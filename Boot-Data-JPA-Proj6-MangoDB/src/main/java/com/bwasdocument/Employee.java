@@ -15,7 +15,5 @@ public class Employee {
 	private String eaddrs;
 	private Double salary;
 	private Boolean isVaccinated;
-	
-	
 
 }
