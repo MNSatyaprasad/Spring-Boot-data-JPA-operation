@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymeleaf.org/">
+
+<div th:if ="${!courseList.empty}">
+<h1 style="color: orange; text-align: center;"> Course Details</h1>
+<table bgcolor="cyan" border="1" align="center">
+<tr style="color: red;"><th> id</th> <th> Name</th> <th> fee </th> <th> startsDate</th> <th> content</th><th> Operations</th>
+</tr>
+<tr th:each="course:${courseList}" style="color: blue;">
+<td> <span th:text="${course.id}"></span></td>
+<td> <span th:text="${course.name}"></span></td>
+<td> <span th:text="${course.fee}"></span></td>
+<td> <span th:text="${course.startsDate}"></span></td>
+<td> <span th:text="${course.content}"></span></td>
+
+<td> <a th:href="@{/course/cur_edit(no=${course.id})}" > <img th:src="@{/images/edit.png}" width="30px" height="20px"></a>
+		<a th:href="@{/course/cur_delete(no=${course.id})}" onclick="return confirm('Are you sure delete this Course?')"><img th:src="@{/images/delete.png}" width="30px" height="20px" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<div th:if="${courseList.empty}">
+ <h1 style="color: gewwn; text-align: center;"> No Course Is started</h1>
+</div>
+<h1 style="color: red; text-align: center;" th:text="${resultMsg}"> </h1>
+<center>
+	<a th:href="@{/course/cur_add}"><img th:src="@{/images/add.png}" width="50px" height="50px"> Add course</a><br>
+	<a th:href="@{/course/}"><img th:src="@{/images/home.png}" width="50px" height="50px"> Home </a>
+</center>
+</html>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Boot-Data-JPA-Proj4-AssocationMapping/D:\/Software\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\/jre\/lib\/jrt-fs.jar`java.base&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1705731610000"/>
+    <typeInfo handle="=Boot-MVC-Proj12-MiniProject-I18N/C:\/Users\/Beasdev16\/.m2\/repository\/org\/springframework\/spring-webmvc\/6.1.8\/spring-webmvc-6.1.8.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-webmvc-6.1.8.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-webmvc=/=/maven.version=/6.1.8=/=/maven.scope=/compile=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1716528894487"/>
+    <typeInfo handle="=Boot-MVC-Proj13-MiniProject-Thymeleaf/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bwas.service{iCourseMgmtService.java[iCourseMgmtService" modifiers="513" timestamp="1716977090366"/>
 </typeInfoHistroy>
