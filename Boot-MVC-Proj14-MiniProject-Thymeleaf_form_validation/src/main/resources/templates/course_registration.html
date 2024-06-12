@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymeleaf.org/">
+<div>
+<h1 style="color: green; text-align: center;"> Added the Course Details</h1>
+<form th:action="@{/course/cur_add}" th:object="${cur}" method="POST">
+<p style="text-align: center; color: red;">
+ <
+</p>
+<table align="center" bgcolor="cyan">
+<tr>
+<td> Course Name</td>
+<td> <input type="text" th:field="*{name}"/></td>
+</tr>
+<tr>
+<td> Course Fee </td>
+<td><input type="number" th:field="*{fee}"/></td>
+</tr>
+<tr>
+<td> Course Start Date </td>
+<td><input type="date" th:field="*{startsDate}"/></td>
+</tr>
+<tr>
+<td> Course content </td>
+<td><input type="text" th:field="*{content}"/></td>
+</tr>
+<tr>
+<td><input type="submit" value="Add"/></td>
+<td><input type="reset" value="Cancel"/></td>
+</tr>
+</table>
+</form>
+</div>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<h1 style="color: orange; text-align: center;">Update Course
+	Details</h1>
+<form th:action="@{/course/cur_edit}" th:object="${cur}" method="post">
+	<table border="0" bgColor="cyan" align="center">
+		<tr>
+			<td>Course Id</td>
+			<td><input type="number" readonly="true" th:field="*{id}" /></td>
+		</tr>
+		<tr>
+			<td>Course Name</td>
+			<td><input type="text" th:field="*{name}" /></td>
+		</tr>
+		<tr>
+			<td>Course Fee</td>
+			<td><input type="number" th:field="*{fee}" /></td>
+		</tr>
+		<tr>
+			<td>Course Start Date</td>
+			<td><input type="date" th:field="*{startsDate}" /></td>
+		</tr>
+		<tr>
+			<td>Course content</td>
+			<td><input type="text" th:field="*{content}" /></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Add" /></td>
+			<td><input type="reset" value="Cancel" /></td>
+		</tr>
+
+	</table>
+
+
+</form>
+</html>
