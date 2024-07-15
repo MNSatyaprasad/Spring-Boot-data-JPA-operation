@@ -3,14 +3,15 @@
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<script language="javaScript" src="webapp/js/validation.js"></script>
+<script language="JavaScript" src="./js/validation.js"></script>
+
 
 <h1 style="color: red; text-align: center;">Register Employee</h1>
 
 <frm:form modelAttribute="emp" onsubmit="return doValidation(this)">
-<%-- <p style="color: red;align-content: center;">
+ <p style="color: red;align-content: center;">
 <frm:errors path="*"/>
-</p> --%>
+</p> 
 	<table border="1" bgcolor="cyan" align="center">
 		<tr>
 			<td>Employee Name::</td>

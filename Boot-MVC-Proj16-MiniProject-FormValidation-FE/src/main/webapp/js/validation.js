@@ -1,4 +1,5 @@
 function doValidation(frm){
+	console.log("Enter into the js code");
 	document.getElementById("nameErr").innerHTML="";
 	document.getElementById("jobErr").innerHTML="";
 	document.getElementById("salErr").innerHTML="";

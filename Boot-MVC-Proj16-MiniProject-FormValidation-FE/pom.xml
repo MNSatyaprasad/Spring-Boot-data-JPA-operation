@@ -60,11 +60,7 @@
 			<artifactId>Boot-Data-JPA-Proj6-MangoDB</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>com.beas</groupId>
-			<artifactId>Boot-MVC-Proj12-MiniProject-I18N</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>

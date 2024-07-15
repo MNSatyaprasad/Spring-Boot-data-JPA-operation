@@ -3,7 +3,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="frm"%>
 <h1 style="color: red; text-align: center;">Update Employee</h1>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script language="javaScript" src="js/validation.js"></script>
+<script language="javaScript" src="./js/validation.js"></script>
 <frm:form modelAttribute="emp" onsubmit="return doValidation(this)">
 	<p style="color: red; align-content: center;">
 		<frm:errors path="*" />
